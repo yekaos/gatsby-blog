@@ -29,6 +29,15 @@ module.exports = {
         name: `blog`,
       },
     },
+    module.exports = {
+      plugins: [
+        {
+          resolve: "gatsby-theme-blog",
+          options: {},
+        },
+        // you will likely have other plugins configured as well
+      ],
+      },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
